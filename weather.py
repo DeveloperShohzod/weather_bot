@@ -2,8 +2,6 @@ import requests
 import json
 
 
-
-
 class Today:
     def __init__(self):
         self.url = "https://weatherapi-com.p.rapidapi.com/forecast.json"

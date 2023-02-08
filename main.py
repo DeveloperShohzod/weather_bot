@@ -6,7 +6,6 @@ from settings import *
 updater = Updater(token=TEELEGRAM_TOKEN, use_context=True)
 
 
-
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Ob-havo botiga hush kelibsiz!!\n"
                               "So'rovingizni /search komandasidan keyin kiriting!!!")
